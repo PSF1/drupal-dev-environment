@@ -5,7 +5,7 @@ PHP_VERSION=7.0
 DRUSH_VERSION=8.1.10
 NODE_VERSION=6.10.0
 DEVELOPER=developer
-LOCALE=es_ES.UTF-8
+LOCALE=en_US.UTF-8
 MYSQL_PASS="toor"
 SSH_PASS="toor"
 AUTOYES=false
@@ -288,10 +288,10 @@ echo - Folder to projects: /home/$DEVELOPER/Projects
 echo -
 echo - Added user developer with password developer. Use the user with:
 echo - sudo su developer
-echo - 
+echo -
 echo - New command tools:
-echo - Code style check: drupalcs <folder>
-echo - Best practices check: drupalcsp <folder>
+echo - Code style check: drupalcs folder/
+echo - Best practices check: drupalcsp folder/
 su $DEVELOPER -c "ll ~/.composer/vendor/bin"
 echo -
 echo --------------------------------------------------------------------------------------
