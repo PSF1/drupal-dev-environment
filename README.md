@@ -7,11 +7,10 @@ This script do a insecure system, DON'T RUN IT IN YOUR MAIN SYSTEM !! It's build
 
 You are advised !!
 
-```wget -O - https://raw.githubusercontent.com/PSF1/drupal-dev-environment/ubuntu.16.04/drupal-dev-environment.sh | sudo bash```
-
 For a better control download the main script and execute it:
 
 ```
-wget -O - https://raw.githubusercontent.com/PSF1/drupal-dev-environment/ubuntu.16.04/drupal-dev-environment.sh
-sudo drupal-dev-environment.sh -h
+wget https://raw.githubusercontent.com/PSF1/drupal-dev-environment/ubuntu.16.04/drupal-dev-environment.sh
+sudo ./drupal-dev-environment.sh -h
+rm drupal-dev-environment.sh
 ```
