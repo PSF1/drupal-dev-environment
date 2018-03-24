@@ -1,0 +1,14 @@
+#######################
+##### MANAGE BASH #####
+#######################
+alias vim-alias="vim $HOME/.bash_aliases && source $HOME/.bash_aliases"
+alias cat-alias="cat $HOME/.bash_aliases"
+alias grep-alias="cat-alias | grep "
+
+###############################
+##### DRUPAL CODE SNIFFER #####
+###############################
+
+alias drupalcs="phpcs --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
+alias drupalcsp="phpcs --standard=DrupalPractice --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
+alias drupalcbf="phpcbf --standard=Drupal --extensions='php,module,inc,install,test,profile,theme,css,info,txt,md'"
