@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Welcome to drupal-dev-environment
 
-You can use the [editor on GitHub](https://github.com/PSF1/drupal-dev-environment/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Script to setup a Drupal dev environment.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This script do a insecure system, DON'T RUN IT IN YOUR MAIN SYSTEM !! It's build to run in VMs like LXC, VirtualBox or Vagrant.
 
-### Markdown
+You are advised !!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Usage instructions:
 
-```markdown
-Syntax highlighted code block
+### Ubuntu 16.04
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+wget https://raw.githubusercontent.com/PSF1/drupal-dev-environment/ubuntu.16.04/drupal-dev-environment.sh
+chmod +x drupal-dev-environment.sh
+sudo ./drupal-dev-environment.sh -h
+rm drupal-dev-environment.sh
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PSF1/drupal-dev-environment/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
