@@ -292,7 +292,7 @@ echo -
 echo - New command tools:
 echo - Code style check: drupalcs folder/
 echo - Best practices check: drupalcsp folder/
-su $DEVELOPER -c "ll ~/.composer/vendor/bin"
+su $DEVELOPER -c "ls -lha ~/.composer/vendor/bin"
 echo -
 echo --------------------------------------------------------------------------------------
 echo - Nice Drupal coding !!
