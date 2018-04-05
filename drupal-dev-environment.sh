@@ -171,10 +171,11 @@ sudo echo "xdebug.max_nesting_level = 300" >> /etc/php/$PHP_VERSION/apache2/conf
 # Setup MySQL.
 show_msg "Setup MySQL"
 #	Ejemplo MySQL => http://www.thisprogrammingthing.com/2013/getting-started-with-vagrant/
-debconf-set-selections <<< 'mysql-server mysql-server/root_password password $MYSQL_PASS'
-debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password $MYSQL_PASS'
-apt-get install -y mysql-server mysql-client
-show_msg "Mysql user root and password $MYSQL_PASS."
+#debconf-set-selections <<< 'mysql-server mysql-server/root_password password $MYSQL_PASS'
+#debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password $MYSQL_PASS'
+#apt-get install -y mysql-server mysql-client
+#show_msg "Mysql user root and password $MYSQL_PASS."
+apt-get install mariadb-server mariadb-client
 
 # Setup SSH.
 show_msg "Setup SSH"
